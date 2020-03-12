@@ -1,4 +1,4 @@
-package com.kazale.crud.api;
+package com.meitheys.crudmongodb.mongoex;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
