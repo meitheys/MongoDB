@@ -13,6 +13,7 @@ public class Produto {
     private String id;
     private String nomeProduto;
     private double preco;
+    private long quantidade;
 
     public Produto() {
     }
@@ -41,6 +42,15 @@ public class Produto {
 
     public void setPreco(double preco) {
         this.preco = preco;
+    }
+
+    @NotNull(message = "Informe a quantidade do produto")
+    public long getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(long quantidade) {
+        this.quantidade = quantidade;
     }
 }
 

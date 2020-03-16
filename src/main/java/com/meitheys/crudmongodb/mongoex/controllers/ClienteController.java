@@ -8,6 +8,7 @@ import javax.validation.Valid;
 import com.meitheys.crudmongodb.mongoex.documents.Cliente;
 import com.meitheys.crudmongodb.mongoex.responses.Response;
 import com.meitheys.crudmongodb.mongoex.services.ClienteService;
+import org.apache.catalina.core.ApplicationFilterChain;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
